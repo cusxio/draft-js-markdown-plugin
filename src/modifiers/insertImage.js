@@ -11,7 +11,7 @@ const insertImage = (editorState, matchArr) => {
     anchorOffset: index,
     focusOffset,
   });
-  const nextContent = currentContent.createEntity("IMG", "IMMUTABLE", {
+  const nextContent = currentContent.createEntity("IMAGE", "IMMUTABLE", {
     alt,
     src,
     title,

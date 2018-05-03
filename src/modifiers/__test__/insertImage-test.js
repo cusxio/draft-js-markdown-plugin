@@ -28,7 +28,7 @@ describe("insertImage", () => {
           title: "party",
         },
         mutability: "IMMUTABLE",
-        type: "IMG",
+        type: "IMAGE",
       },
     },
     blocks: [

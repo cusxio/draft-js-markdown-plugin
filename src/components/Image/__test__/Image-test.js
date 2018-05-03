@@ -8,7 +8,7 @@ describe("<Image />", () => {
   it("renders anchor tag", () => {
     const contentState = ContentState.createFromText(
       ""
-    ).createEntity("IMG", "MUTABLE", {
+    ).createEntity("IMAGE", "MUTABLE", {
       alt: "alt",
       src: "http://cultofthepartyparrot.com/parrots/aussieparrot.gif",
       title: "parrot",
